@@ -362,4 +362,23 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 
+##Ignore:##
 /build/
+.vs/
+
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.pdb
+*.ilk
+*.obj
+*.exe
+
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+generate.stamp*
+
+.DS_Store
+Thumbs.db
